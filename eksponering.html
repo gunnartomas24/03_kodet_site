@@ -6,18 +6,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="general.css" />
     <link rel="stylesheet" href="layout.css" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="favicon/fotohaandbog_logo_180px.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="favicon/fotohaandbog_logo_32px.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="favicon/fotohaandbog_logo_16px.png"
+    />
+    <link rel="manifest" href="/site.webmanifest" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Golos+Text:wght@400..900&display=swap"
       rel="stylesheet"
     />
-    <title>Fotohåndbogen</title>
+    <title>Eksponering</title>
   </head>
   <body>
-    <header></header>
+    <header>
+      <div class="logo">
+        <a href="index.html">
+          <img src="favicon/fotohaandbog_logo_512.png" alt="Logo" />
+        </a>
+      </div>
+      <nav>
+        <ul class="menu">
+          <li><a href="index.html">Forside</a></li>
+          <li><a href="grundlaeggende.html">Grundlæggende</a></li>
+          <li><a href="metode.html">Metode</a></li>
+          <li><a href="koebsguide.html">Købsguide</a></li>
+        </ul>
+
+        <button class="burger">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </button>
+      </nav>
+    </header>
     <main>
-      <img src="#" alt="#" />
+      <img
+        src="galleri/grundlaeggende/eksponering_eks.jpg"
+        alt="Eksempel på forskellig eksponering"
+      />
       <h1>Eksponering</h1>
       <p>
         Eksponering er kernen i fotografering. Det er her, lys og teknik mødes
@@ -34,7 +75,10 @@
       <section class="gr_box_section">
         <div class="gr_box_panel"></div>
         <figure class="gr_box_img1">
-          <img src="#" alt="#" />
+          <img
+            src="galleri/grundlaeggende/blaende.jpg"
+            alt="Eksempel på åbent og lukket blænde"
+          />
         </figure>
         <div class="gr_box_text">
           <h3>Blænde / Aperture</h3>
@@ -57,7 +101,10 @@
       <section class="gr_box_section">
         <div class="gr_box_panel"></div>
         <figure class="gr_box_img1">
-          <img src="#" alt="#" />
+          <img
+            src="galleri/grundlaeggende/lukkerhastighed.jpg"
+            alt="Hurtig og langsom lukkerhastighed"
+          />
         </figure>
         <div class="gr_box_text">
           <h3>Lukkerhastighed / Shutterspeed</h3>
@@ -87,7 +134,7 @@
       <section class="gr_box_section">
         <div class="gr_box_panel"></div>
         <figure class="gr_box_img1">
-          <img src="#" alt="#" />
+          <img src="galleri/grundlaeggende/iso.jpg" alt="Høj og lav ISO" />
         </figure>
         <div class="gr_box_text">
           <h3>ISO / ASA</h3>
@@ -129,6 +176,7 @@
       </p>
       <p>Eksponering handler altså altid om at gå på kompromis.</p>
     </main>
-    <footer></footer>
+    <footer><p>Copyright 2025 © Gunnar Tómas Hlynsson</p></footer>
+    <script src="menu.js"></script>
   </body>
 </html>

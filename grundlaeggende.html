@@ -6,31 +6,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="general.css" />
     <link rel="stylesheet" href="layout.css" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="favicon/fotohaandbog_logo_180px.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="favicon/fotohaandbog_logo_32px.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="favicon/fotohaandbog_logo_16px.png"
+    />
+    <link rel="manifest" href="/site.webmanifest" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Golos+Text:wght@400..900&display=swap"
       rel="stylesheet"
     />
-    <title>Fotohåndbogen</title>
+    <title>Grundlæggende Viden</title>
   </head>
   <body>
-    <header></header>
+    <header>
+      <div class="logo">
+        <a href="index.html">
+          <img src="favicon/fotohaandbog_logo_512.png" alt="Logo" />
+        </a>
+      </div>
+      <nav>
+        <ul class="menu">
+          <li><a href="index.html">Forside</a></li>
+          <li><a href="grundlaeggende.html">Grundlæggende</a></li>
+          <li><a href="metode.html">Metode</a></li>
+          <li><a href="koebsguide.html">Købsguide</a></li>
+        </ul>
+
+        <button class="burger">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </button>
+      </nav>
+    </header>
     <main>
       <section class="btn_site_title">
         <h1>Grundlæggende Viden</h1>
-        <h3>Alt den information du skal bruge, for at komme igang</h3>
+        <h2>Alt den information du skal bruge, for at komme igang</h2>
       </section>
       <section class="btn_grid_1-1">
         <div class="btn_large">
           <a href="begynderinfo.html">
-            <img src="#" alt="#" />
+            <img
+              src="galleri/grundlaeggende/kamera_lifestyle.jpg"
+              alt="Kamera i lomme"
+            />
             <span class="btn-title">Begynder Info</span>
           </a>
         </div>
         <div class="btn_large">
           <a href="eksponering.html">
-            <img src="#" alt="#" />
+            <img src="galleri/forside/eksponering2.jpg" alt="Lysmåler" />
             <span class="btn-title">Eksponering</span>
           </a>
         </div>
@@ -38,24 +79,36 @@
       <section class="btn_grid_1-1-1">
         <div class="btn_medium">
           <a href="objektivet.html">
-            <img src="#" alt="#" />
+            <img
+              src="galleri/grundlaeggende/objektiver.jpg"
+              alt="To objektiver"
+            />
             <span class="btn-title">Objektivet</span>
           </a>
         </div>
         <div class="btn_medium">
           <a href="digital.html">
-            <img src="#" alt="#" />
+            <img
+              src="galleri/grundlaeggende/digital_kamera.jpg"
+              alt="Fujifilm X-H2s"
+            />
             <span class="btn-title">Digital</span>
           </a>
         </div>
         <div class="btn_medium">
           <a href="analog.html">
-            <img src="#" alt="#" />
+            <img
+              src="galleri/grundlaeggende/analog_kamera.jpg"
+              alt="Leica M3"
+            />
             <span class="btn-title">Analog</span>
           </a>
         </div>
       </section>
     </main>
-    <footer></footer>
+    <footer>
+      <p>Copyright 2025 © Gunnar Tómas Hlynsson</p>
+    </footer>
+    <script src="menu.js"></script>
   </body>
 </html>
