@@ -28,6 +28,9 @@ main {
 }
 
 @media (max-width: 1024px) {
+  .btn-title {
+    font-size: 28px;
+  }
   .btn_grid_1-1 {
     margin: 0 50px;
   }
@@ -39,7 +42,19 @@ main {
     margin: 0 50px;
   }
 }
+@media (max-width: 800px) {
+  main {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  .btn_grid_1-1-1 {
+    grid-template-columns: 1fr;
+  }
+}
 @media (max-width: 600px) {
+  .btn-title {
+    font-size: 32px;
+  }
   .btn_grid_1-1 {
     grid-template-columns: 1fr;
   }
