@@ -21,13 +21,13 @@ h1 {
 h2 {
   font-family: "Golos Text", sans-serif;
   font-weight: 700;
-  font-size: clamp(18px, 5vw, 28px);
+  font-size: clamp(22px, 6vw, 28px);
   color: #40a058;
   letter-spacing: -1px;
 }
 h3 {
   font-family: "Golos Text", sans-serif;
-  font-size: clamp(18px, 4vw, 24px);
+  font-size: clamp(20px, 5vw, 24px);
   font-weight: 700;
   color: #252525;
   letter-spacing: -1px;
@@ -35,10 +35,23 @@ h3 {
 p {
   font-family: "Golos Text", sans-serif;
   font-weight: 400;
-  font-size: 17px;
+  font-size: 20px;
+  color: #252525;
+  line-height: 150%;
+  hyphens: auto;
+}
+ul {
+  font-family: "Golos Text", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
   color: #252525;
   line-height: 130%;
   hyphens: auto;
+  list-style-position: outside;
+  padding-left: 30px;
+}
+li {
+  margin-bottom: 10px;
 }
 
 /* -------------FOOTER--------------- */
@@ -234,14 +247,23 @@ nav {
 }
 .btn-title-small {
   position: absolute;
-  left: 50%;
-  top: 85%;
-  transform: translate(-50%, -50%);
+  left: 12px; /* stretch across the card */
+  right: 12px;
+  bottom: 14px; /* <-- anchor to bottom */
+  transform: none; /* remove translateY(-50%) */
+  text-align: center;
+
   font-weight: 800;
   font-family: "Golos Text", sans-serif;
+  font-size: 26px;
   text-shadow: var(--title-shadow);
-  text-align: center;
   padding: 0 10px;
+
+  /* wrap only when needed */
+  white-space: normal;
+  text-wrap: normal;
+  overflow-wrap: normal;
+  word-break: normal;
 }
 .btn_small a::after,
 .btn_medium a::after,
