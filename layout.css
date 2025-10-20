@@ -84,6 +84,9 @@ main {
 .gr_box_text li {
   color: #f7f7f7;
 }
+.gr_box_text a {
+  color: #f7f7f7;
+}
 /*----------------- Button Cards ---------------------*/
 .btn_grid_1-1,
 .btn_grid_1-1-1,
@@ -172,6 +175,9 @@ main {
   }
   .gr_box_text li {
     color: #252525;
+  }
+  .gr_box_text a {
+    color: #40a058;
   }
   .gr_box_img1 {
     margin-top: 0;
