@@ -273,10 +273,10 @@ nav {
 }
 .btn-title-small {
   position: absolute;
-  left: 12px; /* stretch across the card */
-  right: 12px;
-  bottom: 14px; /* <-- anchor to bottom */
-  transform: none; /* remove translateY(-50%) */
+  left: 0px;
+  right: 0;
+  bottom: 7px;
+  transform: none;
   text-align: center;
 
   font-weight: 800;
@@ -285,7 +285,6 @@ nav {
   text-shadow: var(--title-shadow);
   padding: 0 10px;
 
-  /* wrap only when needed */
   white-space: normal;
   text-wrap: normal;
   overflow-wrap: normal;

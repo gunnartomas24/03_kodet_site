@@ -5,8 +5,8 @@ main {
 
 .btn_site_title {
   text-align: center;
-  padding: 50px;
-  margin: 50px 0;
+  padding: 70px;
+  margin: 70px 0;
 }
 /*---------------- Artikel Undersider ----------------*/
 .grid_1-1 {
@@ -124,7 +124,13 @@ main {
     grid-template-columns: repeat(3, 1fr);
     margin: 0 50px;
   }
+  .btn_site_title {
+    text-align: center;
+    padding: 50px;
+    margin: 50px 0;
+  }
 }
+
 @media (max-width: 800px) {
   main {
     max-width: 540px;
@@ -206,5 +212,10 @@ main {
   .btn_grid_1-1-1-1 {
     grid-template-columns: 1fr 1fr;
     margin: 0 30px;
+  }
+}
+@media (max-width: 420px) {
+  .btn-title-small {
+    font-size: 18px;
   }
 }
